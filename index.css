@@ -31,6 +31,10 @@
         transform: scale(1.0);
         color: khaki;
      }
+     .links-header{
+        transform: scale(1.0);
+        color: midnightblue;
+     }
      
     nav{
         background-color: lightcyan;
@@ -47,18 +51,7 @@
         color: midnightblue;
     }
     
-    /* diferentes tamanho de tela */
-    @media screen and (max-width: 700px){
-        h1{
-            display: none;
-    
-        }
-        nav{
-            flex-direction: column;
-        }
-    
-    }
-    /* cor de fundo */
+        /* cor de fundo */
     body{
         background-color: rgb(97, 133, 199);
     }
