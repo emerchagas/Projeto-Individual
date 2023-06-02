@@ -1,70 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-portugues">
+<!-- onde defino as informações gerais do meu site-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Projeto Individual do Emerson</title>
 </head>
+<!-- fim das informações gerais do meu site-->
+
+<!--  inicio do corpo -->
 
 <body>
+    <!-- cabeçalho -->
     <header>
 
         <h1> Seja bem vindo </h1>
+        <!-- navegação do header -->
         <nav>
             <a class="links-header" href="#resumo">Resumo</a>
             <a class="links-header" href="#hobbies">Hobbies</a>
-            <a class="links-header" href="#contatos">Contato</a>
+            <a class="links-header" href="#contatos">Contatos</a>
         </nav>
+
+        <!-- fim da navegação -->
 
     </header>
 
-    <h2>Resumo</h2>
+    <!-- fim do header -->
 
-    <div class="container">
+    <!-- inicio do corpo -->
 
-        <p><strong>Saudações meus caros</strong><br>
-            Sou o Emerson Chagas, tenho 33 anos, moro em São José dos Pinhais.
-            Tenho formação Técnica em Recursos Humanos e atualmente cursando Desenvolvimento Web Full Stack pela
-            Resilia Educação em parceria com o Ebanx.
-            Tenho o objetivo de sair desse curso preparado para o mercado de trabalho e conquistar uma recolocação
-            na área de programação.
-            A minha primeira meta que implementei para chegar nos meus objetivos foi criar um hábito de estudos e revisões com horários definidos e intervalos de descanso e atividade física.</p>
+    <main>
+        <h2>Resumo</h2>
 
-        <img src="./imagem.jpeg" alt="imagem do auto da pagina">
-    </div>
+        <!-- primeira seção -->
 
-    <h3>Hobbies</h3>
+        <section id="resumo">
 
-    <p> Gosto muito de  jogar futebol, tocar violão e pratico diariamente caminhada.
-        Como eu moro em zona rural tenho o privilegio de admirar e cuidar da natureza, tornando-se para mim uma
-        terapia.
-        Gosto de assistir filmes e animes.
-        E dedico-me todo dia aprender algo diferente, agora especificamente voltado ao curso.</p>
+            <p>Saudações meus caros, sou o Emerson Chagas, tenho 33 anos, moro em São José dos Pinhais.
+                Tenho formação Técnica em Recursos Humanos e atualmente cursando Desenvolvimento Web Full Stack pela
+                Resilia Educação em parceria com o Ebanx.
+                Tenho o objetivo de sair desse curso preparado para o mercado de trabalho e conquistar uma recolocação
+                na área de programação.
+                A minha primeira meta que implementei para chegar nos meus objetivos foi criar um hábito de estudos e
+                revisões com horários definidos e intervalos de descanso e atividade física.</p>
 
-    </div>
+            <img src="./img/imagem-emerson.jpg" alt="imagem do autor da pagina">
 
+        </section>
 
-    <form>
+        <!-- fim da priemira section -->
 
-        <fieldset>
-            <ul>
-                <h4>Contatos</h4>
-                <label><strong> Nome <input type="name" id="username" name="username"> </strong> </label>
-                <label><strong> Telefone <input type="email" id="username" name="username"></strong></label>
-                <label><strong> Email <input type="text" id="username" name="username"></strong> </label>
-                <textarea>Deixe sua mensagem</textarea>
+        <h3>Hobbies</h3>
 
-                <button class="btn"><strong>Enviar</strong></button>
+        <!-- inicio segunda section -->
 
-            </ul>
-    </form>
-    <div class="footer">
+        <section id="hobbies">
+
+            <p class="paragrafohobbies"> Gosto muito de jogar futebol, tocar violão e pratico diariamente caminhada.
+                Como eu moro em zona rural tenho o privilegio de admirar e cuidar da natureza, tornando-se para mim uma
+                terapia.
+                Gosto de assistir filmes e animes.
+                E dedico-me todo dia aprender algo diferente, agora especificamente voltado ao curso.</p>
+
+            <img class="fotodois" src="./img/futebol.jpg" alt="partida de futebol">
+
+        </section>
+        <!-- fim da segunda section -->
+
+        <!-- formulario contatos -->
+
+        <form>
+           
+
+            <h4>Contatos</h4>
+
+                <fieldset>                    
+                    <label>Nome <input type="name"> </label>
+                    <label>Telefone <input type="email"></label>
+                    <label>Email <input type="email"></label>
+                    <label>Mensagem <input type="texto"><button class="botao">Enviar</button></label> 
+                      
+               </fieldset>
+                 
+            
+                
+        </form>
+        <!-- fim do formulario -->
+
+    </main>
+    <!-- fim do conteudo principal -->
+
+    <!-- inicio do <footer> -->
+
+    <footer>
+
         <h5>Criado por Emerson Chagas DEV Full Stack</h5>
-    </div>
+
+    </footer>
+    <!-- fim do footer -->
 
 </body>
+<!-- fechamento do corpo -->
 
 </html>
+
+<!-- fechamento do documento html -->
