@@ -1,0 +1,165 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* cor do meu background */
+body {
+   background-color: rgb(97, 133, 199);
+}
+
+/* cabeçalho- header */
+header {
+   background-color: midnightblue;
+   display: flex;
+   color: lightcyan;
+   justify-content: space-between;
+   height: 70%;
+}
+
+.links-header {
+   transform: scale(1.0);
+   color: midnightblue;
+}
+
+h1 {
+   padding-left: 60px;
+   font-family: 'Lobster Two';
+   f
+}
+
+/* menu de interaçao do cabeçalho-header */
+h1:hover {
+   transform: scale(1.0);
+   color: cornflowerblue;
+}
+
+a:hover {
+   transform: scale(1.0);
+   color: cornflowerblue;
+}
+
+a {
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 700;
+   color: midnightblue;
+}
+
+/* inicio propriedades navegaçao */
+
+nav {
+   background-color: lightcyan;
+   display: flex;
+   align-items: center;
+   width: 33%;
+   justify-content: space-around;
+}
+
+/* fim do header */
+
+/* primeira section */
+#resumo {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+img {
+   width: 170px;
+   height: 170px;
+   margin: 47px 20px 0px 55px;
+
+}
+
+p {
+   margin: 30px 80px 30px 20px;
+   font-size: 24px;
+   line-height: 35px;
+   text-align: justify;
+   font-family: 'Lobster Two';
+
+
+}
+
+/* fim da primeira section */
+
+/* caracteristicas dos tags do h2,h3,*/
+
+h2, h3 {
+   font-family: 'Lobster Two';
+   text-align: center;
+   font-size: 35px;
+   margin-top: 10px;
+   color: black;
+
+}
+
+/* segunda section */
+
+#hobbies {
+   display: flex;
+   flex-direction: row;
+}
+
+.paragrafohobbies {
+   margin: 20px 10px 0px 50px;
+}
+
+.fotodois {
+   margin: 0px 70px 0px 30px;
+}
+
+/*contatos  */
+h4 {
+   font-family: 'Lobster Two';
+   text-align: center;
+   font-size: 35px;
+   color: black;
+}
+
+/* estrutura dos contatos */
+fieldset {
+   background-color: midnightblue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   height: 250px;
+   width: 400px;
+   margin-left: 440px;
+   margin-top: 20px;
+   border-color: midnightblue;
+   border-radius: 18px;
+
+}
+
+label {
+   color: lightcyan;
+   font-size: large;
+   height: 20px;
+   width: 200px;
+   text-align: center;
+   margin-top: 10px;
+}
+
+.botao {
+   background-color: lightcyan;
+   font-size: 20px large;
+   color: midnightblue;
+   margin-top: 7px;
+}
+
+.texto {
+   height: 50px;
+   width: 20px;
+}
+
+/* rodapé */
+
+footer {
+   background-color: midnightblue;
+   color: lightblue;
+   text-align: center;
+}
+/* fim do css */
